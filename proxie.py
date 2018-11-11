@@ -9,7 +9,6 @@ import urllib
 page = urllib.urlopen("proxybullshit.html").read()
 #print page
 
-#page = requests.get("http://spys.one/free-proxy-list/ALL/")
 tree = html.fromstring(page)#.content
 
 #print(page.content)
